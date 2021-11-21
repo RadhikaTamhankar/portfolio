@@ -77,7 +77,7 @@
                    </div>
                    <div class="about-tabs">
                        
-                    <button type="button" class="tab-item active" onclick="show1()">Education</button>
+                    <button type="button" class="tab-item " onclick="show1()">Education</button>
                     <button type="button" class="tab-item "  onclick="show2()">Experience</button>
                    
                 </div>
@@ -105,41 +105,39 @@
                                 </div>
                             </div>   
                     </div>
+                    
                 </div>
                 <!--education end-->
-                <style type="text/css">
-                    #div2{
-                        display:none;
-                    }
-                </style>
+               
                 <!--experience start-->
                 
                 <!--experience end-->
 
-               </div>
+            </div>
+            <div class="tab-content" id="div2">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">Oct 2021 - Present</span>
+                        <h4>
+        
+                            Digital Network Marketing</h4>
+                        <p>Company : Forever Living Products</p>
+                        <p>Position : Assistant Supervisor</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date">April-2021 - Present</span>
+                        <h4>
+        
+                            Public Relation </h4>
+                        <p>Institute : TCET-MUN </p>
+                        <p>Position : Team Leader</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
-    <div class="tab-content" id="div2">
-        <div class="timeline">
-            <div class="timeline-item">
-                <span class="date">Oct 2021 - Present</span>
-                <h4>
-
-                    Digital Network Marketing</h4>
-                <p>Company : Forever Living Products</p>
-                <p>Position : Assistant Supervisor</p>
-            </div>
-            <div class="timeline-item">
-                <span class="date">April-2021 - Present</span>
-                <h4>
-
-                    Public Relation </h4>
-                <p>Institute : TCET-MUN </p>
-                <p>Position : Team Leader</p>
-            </div>
-        </div>
-    </div>
+    
 </section>
 <!--about section ends-->
 
@@ -153,14 +151,8 @@
 
 </body>
 </html>
-<script>
-function show1(){
-    document.getElementById("div2").style.display="none";
-    document.getElementById("div1").style.display="block";
-}
-function show2(){
-    document.getElementById("div1").style.display="none";
-    document.getElementById("div2").style.display="block";
-}
-
-</script>
+<style type="text/css">
+    #div2{
+        display:none;
+    }
+    </style>
